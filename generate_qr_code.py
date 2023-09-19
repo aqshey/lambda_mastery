@@ -1,6 +1,6 @@
 import qrcode
 
-def generate_qr_code(event, context):
+def lambda_handler(event, context):
     # Retrieve the parameter from the API Gateway event
     parameter_value = event['queryStringParameters']['parameter']
 
